@@ -684,3 +684,9 @@ unsigned int DJBHash(char* str, unsigned int len)
 > js只有一种数字类型
 > undefined：当声明的变量没有初始化的话，那这个变量的值就是undefined
 > null表示尚未存在的对象。
+
+
+引用和指针的区别？
+1、引用必须初始化，指针可以不用
+2、引用初始化后不能改变，指针可以改变指向对象
+3、引用不能为空，指针可以为空
